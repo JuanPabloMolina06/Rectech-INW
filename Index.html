@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rectech</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Rectech</h1>
+    <a href="cadastro.html">Cadastro</a>
+    <a href="cadastro-fiscal.html">Cadastro Nota Fiscal</a>
+  </header>
+
+  <main>
+    <div class="carousel">
+      <div><img src="./source/imgs/relogio.jpg" alt="Imagem 1"></div>
+      <div><img src="./source/imgs/laptop.avif" alt="Imagem 2"></div>
+      <div><img src="./source/imgs/camera.jpg" alt="Imagem 3"></div>
+      <div><img src="./source/imgs/fone.jpg" alt="Imagem 4"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="">
+          <img src="./source/imgs/relogio.jpg" width="200px" height="100%" alt="Produto 1">
+          <p>XYZ V8 Smart Watch with Bluetooth, Sim Card (4G Supported) Health & Fitness Tracker Smart Watches for Mens Boys and Girls - Black</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="">
+          <img src="./source/imgs/laptop.avif" width="200px" height="100%" alt="Produto 2">
+          <p>Notebook Gamer G15</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="">
+          <img src="./source/imgs/camera.jpg" width="200px" height="100%" alt="Produto 3">
+          <p>Câmera Digital EOS, Canon, Preto, 23 x 14 x 17 cm</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="">
+          <img src="./source/imgs/fone.jpg" width="200px" height="100%" alt="Produto 4">
+          <p>Wireless Earbuds, Bluetooth 5.3 Headphones HI-FI Stereo, Wireless Earphones 35H Playtime Type-C Fast Charging, In Ear Headphones with CVC 8.0 Noise Reduction, IP7 Waterproof, Touch Control, Tiny Size</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2023 Rectech
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
+    });
+  </script>
+
+</body>
+</html>
